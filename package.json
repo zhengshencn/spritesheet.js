@@ -11,7 +11,7 @@
     "ssutils": "./index.js"
   },
   "dependencies": {
-    "async": "~0.2.9",
+    "async": "~1.4.0",
     "binpacking": "~0.0.1",
     "glob": "~3.2.6",
     "hasbin": "^1.2.3",
