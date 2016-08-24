@@ -7,7 +7,9 @@ var glob = require('glob');
 var optimist = require('optimist');
 var hasbin = require('hasbin');
 
-module.exports = generate;
+module.exports = ssutils;
+ssutils.generate = generate;
+ssutils.hasRequiredToolsSync = hasRequiredToolsSync;
 
 var FORMATS = {
     'json': {template: 'json.template', extension: 'json', trim: false},
