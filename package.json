@@ -1,6 +1,6 @@
 {
   "name": "ssutils",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Spritesheet utils",
   "main": "index.js",
   "directories": {
@@ -11,18 +11,18 @@
     "ssutils": "./index.js"
   },
   "dependencies": {
-    "async": "~1.4.0",
-    "binpacking": "~0.0.1",
-    "glob": "~3.2.6",
+    "async": "^1.5.0",
+    "binpacking": "^0.0.1",
+    "glob": "^7.0.6",
     "hasbin": "^1.2.3",
-    "mustache": "~0.7.2",
-    "optimist": "~0.6.0",
+    "mustache": "^2.2.1",
+    "optimist": "^0.6.1",
     "platform-command": "git+https://github.com/zhengshencn/platform-command.git",
-    "underscore": "~1.5.2"
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "mocha": "*",
-    "expect.js": "~0.2.0"
+    "expect.js": "^0.3.1"
   },
   "scripts": {
     "test": "mocha test"
