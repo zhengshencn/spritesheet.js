@@ -1,6 +1,6 @@
 {
   "name": "ssutils",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Spritesheet utils",
   "main": "index.js",
   "directories": {
