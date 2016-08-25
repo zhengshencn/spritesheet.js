@@ -7,6 +7,7 @@ var glob = require('glob');
 var optimist = require('optimist');
 var hasbin = require('hasbin');
 
+var ssutils = {};
 module.exports = ssutils;
 ssutils.generate = generate;
 ssutils.hasRequiredToolsSync = hasRequiredToolsSync;
